@@ -4,8 +4,8 @@ A Cool Sign In Way (Avoiding From Brute Force Attacks)
 This code provides a very basic and minimalistic password authentication system that relies on the user inputting characters at specific positions in their password. It is not suitable for real-world security purposes and should be considered a learning exercise. For real-world applications, more robust and secure authentication methods should be used, such as hashing and salting passwords, implementing rate limiting, and using secure protocols like HTTPS.
 Also You can marge with high secure protocols.
 
-- CLI
-- GUI
+- [CLI](#cli)
+- [GUI](#gui)
 
 ## CLI
    1. Clone The Repository
@@ -34,3 +34,8 @@ Also You can marge with high secure protocols.
    
    Type `exit` To Exit 
    So Have Fun :) (@athede-v)
+
+   And I Almost Forgot `.\CLI\simple.py` is a cleaner and less text code but the function is same 
+   `simple.py` is a clean code for better understanding if i was code dirty in `app.py`
+   
+## GUI
