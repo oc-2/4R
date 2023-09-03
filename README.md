@@ -1,5 +1,9 @@
 # 4R
 A Cool Sign In Way (Avoiding From Brute Force Attacks)
+
+This code provides a very basic and minimalistic password authentication system that relies on the user inputting characters at specific positions in their password. It is not suitable for real-world security purposes and should be considered a learning exercise. For real-world applications, more robust and secure authentication methods should be used, such as hashing and salting passwords, implementing rate limiting, and using secure protocols like HTTPS.
+Also You can marge with high secure protocols.
+
 - CLI
 - GUI
 
