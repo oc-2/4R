@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'main';
+  src: url('./box/fonts/main.woff') format('woff'),
+  url('./box/fonts/main.woff2') format('woff2'),
+  url('./box/fonts/main.ttf') format('ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'main';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dddddd; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dddddd; 
+}
