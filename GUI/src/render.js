@@ -1,6 +1,7 @@
 import React from 'react'
 import {Outlet} from 'react-router-dom'
-import Menu from './components/elements/Menu'
+import Logo from './components/elements/Head';
+import Details from './components/elements/Details';
 export const GlobalContext = React.createContext();
 export default function App() {
   return (
@@ -8,7 +9,9 @@ export default function App() {
       <GlobalContext.Provider value={{
         
       }}>
+        <Logo/>
         <Outlet/>
+        <Details/>
       </GlobalContext.Provider>
     </React.Fragment>
     )

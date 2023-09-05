@@ -1,16 +1,16 @@
-import React,{ Suspense} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
+import Home from './components/screens/App';
 const App = React.lazy(()=> import( './render'));
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path='' element={<Suspense fallback={<div>load</div>}><App/></Suspense>}>
-
+      <Route path='*' element={<App/>}>
+        <Route path='*' element={<Home/>}/>
       </Route>
-      <Route path='*' element={<Suspense fallback={<div>load</div>}><div>404</div></Suspense>}/>
     </Routes>
   </BrowserRouter>
 );

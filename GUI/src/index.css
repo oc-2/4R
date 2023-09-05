@@ -4,13 +4,18 @@
   url('./box/fonts/main.woff2') format('woff2'),
   url('./box/fonts/main.ttf') format('ttf');
 }
-
+*{
+  --main-clr : #da9391;
+  --second-clr : #e9e2d0;
+  --third-clr : #8c8baa;
+  --forth-clr : #008812;
+}
 body {
   margin: 0;
   font-family: 'main';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #ffffff;
+  background-color: var(--second-clr);
 }
 /* width */
 ::-webkit-scrollbar {

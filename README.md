@@ -9,11 +9,11 @@ Also You can marge with high secure protocols.
 
 ## CLI
    1. Clone The Repository
-    `git clone https://github.com/Athede-v/4R.git`
+    git clone https://github.com/Athede-v/4R.git
    2. Go To CLI Dir
-    `cd .\CLI\`
+    cd .\CLI\
    3. Run app.py (-python 3.11)
-    `py app.py`
+    py app.py
 
    Hello And Welcome To 4R Sing In Way :) 
    This The Way How it Works 
@@ -40,3 +40,12 @@ Also You can marge with high secure protocols.
    `simple.py` is a clean code for better understanding if i was code dirty in `app.py`
 
 ## GUI
+   1. Clone The Repository
+    git clone https://github.com/Athede-v/4R.git
+   2. Go To CLI Dir
+    cd .\GUI\
+   3. Install Packages
+    npm install
+   4. And Start Test Server
+    npm start
+   5. Go To `http://localhost:3000/` URL

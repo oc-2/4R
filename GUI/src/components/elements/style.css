@@ -1,0 +1,115 @@
+.logo{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.logo span{
+    font-size: 50px;
+    color: var(--third-clr);
+}
+.InpInput{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'main';
+    box-sizing: border-box;
+    background-color: var(--second-clr);
+    border: 2px solid var(--third-clr);
+    border-radius: 5px;
+    color: var(--third-clr);
+    transition: all 0.2s ease-out;
+}
+.InpInput:focus{
+    outline: none;
+    border-radius: 7px;
+    border: 2px solid var(--main-clr);
+    color: var(--main-clr);
+}
+.PasswordInputParent{
+    width: 100%;
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    box-sizing: border-box;
+}
+.PasswordInputIndexParent{
+    width: 100%;
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 54px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.PasswordInputIndexParent span{
+    text-align: center;
+    color : #8a8a8a;
+    font-size: 17px;
+}
+.PasswordInputLabel{
+    width: 100%;
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.PasswordInputLabel span{
+    color: #8a8a8a;
+    font-size: 19px;
+    letter-spacing: 4px;
+}
+.GoodJobText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0 0 ;
+    box-sizing: border-box;
+}
+.GoodJobText span{
+    font-size: 40px;
+    color: var(--third-clr);
+    letter-spacing: 7px;
+}
+.TryAgainText{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.TryAgainText span{
+    font-size: 25px;
+    color: #8a8a8a;
+    letter-spacing: 5px;
+}
+.DetailsParent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 20%;
+    row-gap: 10px;
+    box-sizing: border-box;
+}
+.DetailsHead{
+    font-size: 25px;
+    color: #8a8a8a;
+    letter-spacing: 5px;
+}
+.DetailsText{
+    font-size: 20px;
+    color: #8a8a8a;
+    letter-spacing: 5px;
+}
