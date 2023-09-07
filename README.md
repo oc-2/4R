@@ -14,6 +14,7 @@ Also You can marge with high secure protocols.
    ```
    2. Go To CLI Dir
    ```
+     cd .\4R\
      cd .\CLI\
    ```
    3. Run app.py (-python 3.11)
@@ -50,8 +51,9 @@ Also You can marge with high secure protocols.
    ```
      git clone https://github.com/Athede-v/4R.git
    ```
-   2. Go To CLI Dir
+   2. Go To GUI Dir
    ```
+     cd .\4R\
      cd .\GUI\
    ```
    3. Install Packages
