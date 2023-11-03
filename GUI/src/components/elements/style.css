@@ -73,7 +73,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0 0 0 ;
+    padding: 30px 0 0;
     box-sizing: border-box;
 }
 .GoodJobText span{
