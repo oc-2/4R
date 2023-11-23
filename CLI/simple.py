@@ -2,22 +2,21 @@ import os
 from random import randint
 
 class FourRSignIn:
+    PASSWORD_LENGTH = 8
+
     def __init__(self):
         self.password = ''
         self.is_in = False
 
-    def clear(self):
-        if os.name == 'nt':
-            _ = os.system('cls')
-        else:
-            _ = os.system('clear')
+    def clear_screen(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
 
     def set_password(self):
         while True:
             password = input("$4R >> Enter Your 8-Char Password (Type 'exit' for Cancel): ")
             if password.lower() == 'exit':
                 break
-            elif len(password) == 8:
+            elif len(password) == self.PASSWORD_LENGTH:
                 self.password = password
                 print("$4R >> Password Set.")
                 break
@@ -38,7 +37,7 @@ class FourRSignIn:
             return
 
         while True:
-            random_indexes = [randint(1, 8) for _ in range(4)]
+            random_indexes = [randint(1, self.PASSWORD_LENGTH) for _ in range(4)]
             self.print_pattern(random_indexes)
 
             temp_com = ''.join([input(f"    X[{i}] : ") for i in random_indexes])
@@ -52,7 +51,7 @@ class FourRSignIn:
 
 if __name__ == "__main__":
     four_r_sign_in = FourRSignIn()
-    four_r_sign_in.clear()
+    four_r_sign_in.clear_screen()
 
     while True:
         user_input = input("$UR >>> ").lower()

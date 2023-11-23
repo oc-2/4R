@@ -15,18 +15,14 @@ def set_password():
         temp = input("$UR >>> ")
         if len(temp) == 8:
             is_valid_password = True
-            break
+            password = temp  # Assign to the global variable
+            print("$4R >> Password Set Successfully\n")
         elif temp.lower() == 'exit':
             break
         else:
             print("$4R >> WRONG! Please enter an 8-character password or type 'exit' to cancel.")
 
-    if is_valid_password:
-        password = temp
-        print("$4R >> Password Set Successfully\n")
-
-def run_program():
-    global isIn
+def run_program(isIn):
     if not isIn:
         if password:
             while True:
@@ -42,7 +38,8 @@ def run_program():
 
                 if temp_com == password_com:
                     print("\n$4R >> Good Job, You're In\n")
-                    isIn = True
+                    return True
+                elif temp_com.lower() == 'exit':
                     break
                 else:
                     print("\n$4R >> WRONG! Try Again")
@@ -50,6 +47,7 @@ def run_program():
             print("$4R >> Please Set Password First (Type 'set pass')\n")
     else:
         print("$4R >> You're Already In!\n")
+    return isIn
 
 if __name__ == "__main__":
     clear_screen()
@@ -67,6 +65,6 @@ if __name__ == "__main__":
         elif user_input.lower() == "set pass":
             set_password()
         elif user_input.lower() == "run":
-            run_program()
+            isIn = run_program(isIn)
         else:
             print("$4R >> Unknown Command\n")
