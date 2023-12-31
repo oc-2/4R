@@ -43,7 +43,7 @@ cd 4R
    Type `exit` To Exit 
    So Have Fun :) (@athede-v)
    
-   `app.js` `app.cpp` `app.php` are like `app.py` but in another language with same function.
+   `app.js` `app.cpp` `app.dart` are like `app.py` but in another language with same function.
    And I Almost Forgot `.\CLI\simple.py` is a cleaner and less text code but the function is same 
    `simple.py` is a clean code for better understanding if i was code dirty in `app.py`
 
