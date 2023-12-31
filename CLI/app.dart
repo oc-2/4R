@@ -2,8 +2,6 @@ import 'dart:io';
 import 'dart:math';
 
 void clearScreen() {
-  // Assuming this function clears the console screen in Dart
-  // You may need to customize this based on your environment
   if (Platform.isWindows) {
     print(Process.runSync('cls', [], runInShell: true).stdout);
   } else {
@@ -46,9 +44,9 @@ void runSignIn(List<int> password) {
     print('\n\n    X-X-X-X\n');
     print('    ${randomIndexes.join("-")}\n\n');
 
-    var passwordCom = '';
+    var passwordCom = StringBuffer();
     for (var index in randomIndexes) {
-      passwordCom += password[index - 1].toString();
+      passwordCom.write(password[index - 1]);
     }
 
     var tempCom = List<int>.generate(4, (i) {
@@ -56,7 +54,7 @@ void runSignIn(List<int> password) {
       return int.parse(stdin.readLineSync()!);
     });
 
-    if (tempCom.toString() == passwordCom) {
+    if (tempCom.toString() == passwordCom.toString()) {
       print('\n$4R >> Good Job, You\'re In!\n');
       isIn = true;
     } else {
