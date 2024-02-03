@@ -41,7 +41,7 @@ cd 4R
    -Some Options Are Active At The Moment For More Security (You Can Remove And Replace Your Code Or Change Any Thing You Want , It Just A Very Simple Code)
    
    Type `exit` To Exit 
-   So Have Fun :) (@athede-v)
+   So Have Fun :) ([@athede-v](https://github.com/Athede-v))
    
    `app.js` `app.cpp` `app.dart` are like `app.py` but in another language with same function.
    And I Almost Forgot `.\CLI\simple.py` is a cleaner and less text code but the function is same 
