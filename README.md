@@ -11,8 +11,7 @@ Also You can marge with high secure protocols.
 ## CLI
    1. Clone The Repository
    ```
- git clone https://github.com/Athede-v/4R.git && 
-cd 4R
+ git clone https://github.com/Athede-v/4R.git
    ```
    2. Go To CLI Dir
    ```
