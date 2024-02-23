@@ -43,7 +43,7 @@ cd 4R
    Type `exit` To Exit 
    So Have Fun :) ([@athede-v](https://github.com/Athede-v))
    
-   `app.js` `app.cpp` `app.dart` mirror the functionality of app.py but in different programming languages. Similarly, `simple.py` accomplishes the same task as `app.py` but with 
+   `app.js` `app.cpp` `app.dart` mirror the functionality of `app.py` but in different programming languages. Similarly, `simple.py` accomplishes the same task as `app.py` but with 
    cleaner and more concise code, given that the `app.py` code was less tidy.
 ## GUI
    1. Clone The Repository
