@@ -24,8 +24,8 @@ cd 4R
      py app.py
    ```
 
-   This The Way How it Works 
-   You Can Be More Creative (I Mean You Can Change Code And Add It Some Protect Protocol To It And Make A Strong And Very Safe 4R)
+   How it Works:
+   You can customize the code and add additional security protocols to strengthen 4R. The template for the CLI is as follows:
    
      X-X-X-X
      1-5-8-1
@@ -34,22 +34,20 @@ cd 4R
     `$UR >>> set pass`
    Command , Type In The Console And Press Enter
    
-   And Then You Can Test 4R Sign In Way BY
+   To test the 4R Sign-In Method, use the
     `$UR >>> run`
    Command , Just Type In The Console And Press Enter Bro 
    
-   -Some Options Are Active At The Moment For More Security (You Can Remove And Replace Your Code Or Change Any Thing You Want , It Just A Very Simple Code)
-   
-   Type `exit` To Exit 
-   So Have Fun :) ([@athede-v](https://github.com/Athede-v))
-   
-   `app.js` `app.cpp` `app.dart` mirror the functionality of `app.py` but in different programming languages. Similarly, `simple.py` accomplishes the same task as `app.py` but with 
-   cleaner and more concise code, given that the `app.py` code was less tidy.
+   Some options are currently active for enhanced security. You can modify or replace the code as needed; it's a straightforward implementation.
+
+Type exit to exit the program. Enjoy! ([@athede-v](https://github.com/Athede-v))
+
+app.js, app.cpp, and app.dart mirror the functionality of app.py but in different programming languages. Similarly, simple.py accomplishes the same task as app.py but with cleaner and more concise code compared to app.py.
+
 ## GUI
    1. Clone The Repository
    ```
- git clone https://github.com/Athede-v/4R.git && 
-cd 4R
+ git clone https://github.com/Athede-v/4R.git
    ```
    2. Go To GUI Dir
    ```
