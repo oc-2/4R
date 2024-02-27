@@ -23,7 +23,8 @@ Also You can marge with high secure protocols.
      py app.py
    ```
 
-   How it Works:
+   **How it Works:**
+   
    You can customize the code and add additional security protocols to strengthen 4R. The template for the CLI is as follows:
    
      X-X-X-X
@@ -46,19 +47,14 @@ app.js, app.cpp, and app.dart mirror the functionality of app.py but in differen
 ## GUI
    1. Clone The Repository
    ```
- git clone https://github.com/Athede-v/4R.git
+ git clone https://github.com/Athede-v/4R.git && cd 4R\GUI
    ```
-   2. Go To GUI Dir
-   ```
-     cd .\4R\
-     cd .\GUI\
-   ```
-   3. Install Packages
+   2. Install Packages
    ```
      npm install
    ```
-   4. And Start Test Server
+   3. And Start Test Server
    ```
      npm start
    ```
-   5. Go To `http://localhost:3000/` URL
+   4. Go To `http://localhost:3000/` URL
