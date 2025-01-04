@@ -2,31 +2,3 @@
 /node_modules
 /package-lock.json
 
-# Build files
-build/
-dist/
-*.js
-*.map
-
-# Environment variables
-.env
-
-# Dependency directory
-dependencies/
-
-# Editor/IDE specific files
-.vscode/
-.idea/
-
-# Logs
-logs
-*.log
-
-# Coverage
-coverage/
-
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
