@@ -1,9 +1,9 @@
 # 4R
 A Cool Sign In Way (Avoiding From Brute Force Attacks)
 
-Hello And Welcome To 4R Sing In Way :)
+Hello And Welcome To 4R Sign In Way :)
 This code provides a very basic and minimalistic password authentication system that relies on the user inputting characters at specific positions in their password. It is not suitable for real-world security purposes and should be considered a learning exercise. For real-world applications, more robust and secure authentication methods should be used, such as hashing and salting passwords, implementing rate limiting, and using secure protocols like HTTPS.
-Also You can marge with high secure protocols.
+Also You can merge with high secure protocols.
 
 - [CLI](#cli)
 - [GUI](#gui)
@@ -11,12 +11,7 @@ Also You can marge with high secure protocols.
 ## CLI
    1. Clone The Repository
    ```
- git clone https://github.com/Athede-v/4R.git
-   ```
-   2. Go To CLI Dir
-   ```
-     cd .\4R\
-     cd .\CLI\
+ git clone https://github.com/Athede-v/4R.git && 4R\CLI
    ```
    3. Run app.py (-python 3.11)
    ```
