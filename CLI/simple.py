@@ -71,22 +71,22 @@ while True:
 # Exit message
 print("Goodbye!")
 
-#    Hello And Welcome To 4R Sing In Way :) 
-#    This The Way How it Works 
-#    You Can Be More Creative (I Mean You Can Change Code And Add It Some Protect Protocol To It And Make A Strong And Very Safe 4R)
+#   Hello And Welcome To 4R Sign In Way :) 
+#   This The Way How it Works 
+#   You can customize the code and add additional security protocols to strengthen 4R. The template for the CLI is as follows:
    
 #      X-X-X-X
 #      1-5-8-1
    
-#    This Is Template Of The CLI So At First Enter Your 8-Char Password By 
-#     `$UR >>> set pass`
-#    Command , Type In The Console And Press Enter
+#   This Is Template Of The CLI So At First Enter Your 8-Char Password By 
+#    `$UR >>> set pass`
+#   Command , Type In The Console And Press Enter
    
-#    And Then You Can Test 4R Sign In Way BY
-#     `$UR >>> run`
-#    Command , Just Type In The Console And Press Enter Bro 
+#   To test the 4R Sign-In Method, use the
+#    `$UR >>> run`
+#   Command , Just Type In The Console And Press Enter Bro 
    
-#    -Some Options Are Active At The Moment For More Security (You Can Remove And Replace Your Code Or Change Any Thing You Want , It Just A Very Simple Code)
+#   Some options are currently active for enhanced security. You can modify or replace the code as needed; it's a straightforward implementation.
    
 #    Type `exit` To Exit 
 #    So Have Fun :) (@athede-v)

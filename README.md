@@ -35,9 +35,9 @@ Also You can merge with high secure protocols.
    
    Some options are currently active for enhanced security. You can modify or replace the code as needed; it's a straightforward implementation.
 
-Type exit to exit the program. Enjoy! ([@athede-v](https://github.com/Athede-v))
+Type exit to exit the program. So Have Fun :) ([@athede-v](https://github.com/Athede-v))
 
-app.js, app.cpp, and app.dart mirror the functionality of app.py but in different programming languages. Similarly, simple.py accomplishes the same task as app.py but with cleaner and more concise code compared to app.py.
+app.c, app.cpp, and app.js mirror the functionality of app.py but in different programming languages. Similarly, simple.py accomplishes the same task as app.py but with cleaner and more concise code compared to app.py.
 
 ## GUI
    1. Clone The Repository
