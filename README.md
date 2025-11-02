@@ -11,7 +11,7 @@ Also You can merge with high secure protocols.
 ## CLI
    1. Clone The Repository
    ```
- git clone https://github.com/Athede-v/4R.git && 4R\CLI
+ git clone https://github.com/oc-2/4R.git && 4R\CLI
    ```
    3. Run app.py (-python 3.11)
    ```
@@ -35,14 +35,14 @@ Also You can merge with high secure protocols.
    
    Some options are currently active for enhanced security. You can modify or replace the code as needed; it's a straightforward implementation.
 
-Type exit to exit the program. So Have Fun :) ([@athede-v](https://github.com/Athede-v))
+Type exit to exit the program. So Have Fun :) ([@oc-2](https://github.com/oc-2))
 
 app.c, app.cpp, and app.js mirror the functionality of app.py but in different programming languages. Similarly, simple.py accomplishes the same task as app.py but with cleaner and more concise code compared to app.py.
 
 ## GUI
    1. Clone The Repository
    ```
- git clone https://github.com/Athede-v/4R.git && cd 4R\GUI
+ git clone https://github.com/oc-2/4R.git && cd 4R\GUI
    ```
    2. Install Packages
    ```

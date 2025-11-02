@@ -1,4 +1,4 @@
-#https://github.com/athede-v/4R
+#https://github.com/oc-2/4R
 
 import os
 from random import randint
@@ -10,7 +10,7 @@ def clear():
         _ = os.system('clear')
 
 clear()
-print("Hello And Welcome To 4R Sing In Way :)\nThis The Way How it Works \nYou Can Be More Creative (I Mean You Can Change Code And Add It Some Protect Protocol To It And Make A Strong And Very Safe 4R)\n\n  X-X-X-X\n  1-5-8-1\n\nThis Is Template Of The CLI So At First Enter Your 8-Char Password By \n'$UR >>> set pass'\nCommand , Type In The Console And Press Enter\n\nAnd Then You Can Test 4R Sign In Way BY\n'$UR >>> run'\nCommand , Just Type In The Console And Press Enter Bro \n\n-Some Options Are Active At The Moment For More Security (You Can Remove And Replace Your Code Or Change Any Thing You Want , It Just A Very Simple Code)\n\nType 'exit' To Exit \nSo Have Fun :) (@athede-v)")
+print("Hello And Welcome To 4R Sing In Way :)\nThis The Way How it Works \nYou Can Be More Creative (I Mean You Can Change Code And Add It Some Protect Protocol To It And Make A Strong And Very Safe 4R)\n\n  X-X-X-X\n  1-5-8-1\n\nThis Is Template Of The CLI So At First Enter Your 8-Char Password By \n'$UR >>> set pass'\nCommand , Type In The Console And Press Enter\n\nAnd Then You Can Test 4R Sign In Way BY\n'$UR >>> run'\nCommand , Just Type In The Console And Press Enter Bro \n\n-Some Options Are Active At The Moment For More Security (You Can Remove And Replace Your Code Or Change Any Thing You Want , It Just A Very Simple Code)\n\nType 'exit' To Exit \nSo Have Fun :) (@oc-2)")
 
 #Varibale Managment
 password = ''

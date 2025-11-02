@@ -1,4 +1,4 @@
-#https://github.com/athede-v/4R
+#https://github.com/oc-2/4R
 import os
 from random import randint
 
@@ -89,4 +89,4 @@ print("Goodbye!")
 #   Some options are currently active for enhanced security. You can modify or replace the code as needed; it's a straightforward implementation.
    
 #    Type `exit` To Exit 
-#    So Have Fun :) (@athede-v)
+#    So Have Fun :) (@oc-2)
